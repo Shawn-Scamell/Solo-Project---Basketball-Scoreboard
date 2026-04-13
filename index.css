@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "Cursed Timer ULiL";
+  src: url("/src/fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+h3 {
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0 0 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20vh 0 20vh 0;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 0 5vh 0;    
+    /* width: 100px; */
+}
+
+.score-item {
+    padding: 0 10px;
+}
+.score {
+    background-color: #080001;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+    text-align: right;
+    padding: 0 20px 0 0;
+    margin: 0;
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+}
+
+.score-btn {
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    background-color: #1B244A;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px; 
+    margin: 10px 3px;
+}
+
+#new-game-btn {
+    background: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px 20px;
+    
+}
