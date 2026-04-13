@@ -1,8 +1,8 @@
 // Global Variables
 let homeScore = 0
-let guestScore = 0
+let awayScore = 0
 let homeScoreP = document.getElementById("home-score-p")
-let guestScoreP = document.getElementById("guest-score-p")  
+let awayScoreP = document.getElementById("away-score-p")  
 let score = 0
 
 function add(points) {
@@ -18,21 +18,21 @@ function addHomeScore(points) {
     // console.log("Home score = " + homeScore)
 }
 
-function addGuestScore(points) {
+function addAwayScore(points) {
     score = 0
     score = add(points)
-    guestScore += score
-    guestScoreP.textContent = guestScore
-    // console.log("Guest score = " + guestScore)
+    awayScore += score
+    awayScoreP.textContent = awayScore
+    // console.log("Away score = " + awayScore)
 }
 
 function init() {
     homeScore = 0
-    guestScore = 0
+    awayScore = 0
     homeScoreP = document.getElementById("home-score-p")
-    guestScoreP = document.getElementById("guest-score-p")  
+    awayScoreP = document.getElementById("away-score-p")  
     homeScoreP.textContent = homeScore
-    guestScoreP.textContent = guestScore
+    awayScoreP.textContent = awayScore
 }
 
 init()
