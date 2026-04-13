@@ -1,3 +1,3 @@
 # Basketball Scoreboard - Scrimba Solo Project
 
-[View Here](https://willowy-sawine-0081b1.netlify.app/)
+[View Here](https://earnest-kitten-6f86fc.netlify.app/)
